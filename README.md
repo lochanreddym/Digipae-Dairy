@@ -17,7 +17,6 @@
 - [March 2026 — vertical slices + hardening blast](#march-2026--vertical-slices--hardening-blast)
 - [April 2026 — security, vault, scheduling, merchant phase 1](#april-2026--scaled-delivery-weeks)
 - [May 2026 — distribution, scale posture, launch sweep](#may-2026--distribution-scale-launch-sweep)
-- [How to extend this journal](#how-to-extend-this-journal)
 
 ---
 
@@ -455,17 +454,4 @@ This day clusters many themes; summarized without stack/vendor detail.
 - **May 4 —** Launch hardening themes: quotas for transactional email, tighter universal-links posture, phased telemetry rollout tied to readiness gates, toolchain fixes affecting release archives on newest OS/tool releases.  
 - **May 5 —** Canonical verify routing hygiene; payer identifier resilience fixes; branded receipt iteration; navigation stability sweep for launch.  
 
----
 
-## How to extend this journal
-
-**Cadence**
-- Prefer **daily** headings when shipping is rhythmic.  
-- Use **weekly** blocks during merge-heavy bursts (fewer headings, dated bullets).
-
-**Safety**
-- Keep stack/vendor names and internal endpoints out of public README entries; push those details into private docs.
-
-## Maintenance note (optional repo rename)
-
-If you want the GitHub repo name and URL to match the product (`Digipae-*`), rename the repo in GitHub settings; GitHub redirects are usually graceful for clones, but update any badges/links elsewhere.
